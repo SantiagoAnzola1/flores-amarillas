@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 :root {
@@ -18,8 +19,13 @@ body {
   background-color: var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
+  // max-width: 100dvw;
+  // max-height: 100dvh;
 }
 
+#audio{
+  display: none;
+}
 .night {
   position: fixed;
   left: 50%;
